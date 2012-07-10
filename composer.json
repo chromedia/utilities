@@ -2,6 +2,6 @@
     "name": "chromedia/utilities",
     "description": "universal utilities repository",
     "autoload": {
-        "psr-0": {"PHP": "ChromediaUtilities/"}
+        "psr-0": {"ChromediaUtilities": "src/"}
     }
 }

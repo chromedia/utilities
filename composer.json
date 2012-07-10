@@ -1,4 +1,7 @@
 {
     "name": "chromedia/utilities",
-    "description": "universal utilities repository"
+    "description": "universal utilities repository",
+    "autoload": {
+        "psr-0": {"ChromediaUtilities": "PHP/"}
+    }
 }

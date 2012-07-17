@@ -23,7 +23,7 @@
         "imagine/Imagine": "*"
     },
     "autoload": {
-        "psr-0": { "Chromedia\\MediaBundle": "" }
+        "psr-0": { "Chromedia\\Bundle\\MediaBundle": "" }
     },
-    "target-dir": "Chromedia/MediaBundle"
+    "target-dir": "Chromedia/Bundle/MediaBundle"
 }

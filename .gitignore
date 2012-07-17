@@ -5,3 +5,5 @@ app/logs/*
 build/
 vendor
 .project
+.buildpath
+.settings

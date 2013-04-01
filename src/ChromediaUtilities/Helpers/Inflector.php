@@ -21,7 +21,7 @@ class Inflector
      * @param array $values
      * @return string
      */
-    static public function supplyPatternVariableValues($subject, array $values)
+    static public function supplyPatternVariableValues($subject, array $values, array $knownVariables=array())
     {
         $tempSubject = $subject;
         \preg_match_all('/\{.*?\}/', $tempSubject, $matches);
